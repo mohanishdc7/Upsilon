@@ -1,0 +1,69 @@
+.cib1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.citb{
+    max-width: 400px;
+    margin: 30px;
+}
+
+.cib1 button{
+    width: 80%;
+}
+
+.setic{
+    background-color: white;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.setic button{
+    width: 80%;
+}
+
+.cist{
+    width: 600px;
+}
+
+
+
+.cist table{
+    margin-top: 20px;
+}
+
+.t1{
+    width: 20%;
+    text-align: center;
+}
+.t2{
+    width: 60%;
+    text-align: center;
+}
+.t3{
+    width: 20%;
+    text-align: center;
+}
+.cismain{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.cistb{
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.dm{
+    max-width: calc( 100vw - 240px);
+}

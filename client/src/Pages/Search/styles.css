@@ -1,0 +1,154 @@
+.bm1 {
+  display: grid;
+  width: calc(98.5vw - 250px);
+  margin: 0;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.bi1:hover{
+  cursor: pointer;
+}
+
+.svb:hover,.svn:hover{
+  cursor: pointer;
+}
+.pgnav {
+  width: calc(98vw - 250px);
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+
+.pgnav button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 15px 5px;
+}
+
+/* .cm1{
+    display: flex;
+    width: calc(100vw - 250px);
+    flex-direction: column;
+} */
+
+.filt {
+  width: 250px;
+  height: 100vh;
+  display: block;
+  /* border: 2px solid red; */
+}
+
+.seamain {
+  display: flex;
+}
+
+.top1 {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filth {
+  margin-left: 37px;
+  margin-top: 22px;
+  margin-bottom: 10px;
+  font-size: 31px;
+}
+
+.filti {
+  display: flex;
+  border: 2px solid rgb(221, 221, 221);
+  border-radius: 4px;
+  box-shadow: 2px 2px rgb(221, 221, 221);
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 230px;
+  margin-left: 20px;
+}
+
+.filtm {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.filto {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.top1 h1 {
+  color: black;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.bi1 {
+  width: 350px;
+  padding-left: 5px;
+  margin: 30px 0;
+  align-items: center;
+}
+
+.topmob {
+  display: none;
+}
+
+.filtmob {
+  display: none;
+}
+
+@media (max-width: 1350px) {
+  .bm1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .bm1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 678px) {
+  .bm1,
+  .pgnav {
+    width: 100vw;
+  }
+
+  .tog {
+    display: none;
+  }
+
+  .top1 select {
+    border: 1px solid black;
+    height: 40px;
+    margin-right: 30px;
+  }
+
+  .filtmob {
+    display: inline;
+    margin-left: 30px;
+    height: 40px;
+    width: 80px;
+    border: 1px solid black;
+    /* right: 0%; */
+  }
+
+  .top1 h1 {
+    display: none;
+  }
+
+  .filti {
+    margin-right: 10px;
+  }
+
+  .topmob {
+    display: block;
+    font-size: 18px;
+    /* text-align: center; */
+    margin: 20px 0 20px 20px;
+  }
+}

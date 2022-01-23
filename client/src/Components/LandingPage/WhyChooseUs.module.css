@@ -1,0 +1,16 @@
+.WhyChooseUs {
+  background-color: #212529;
+  color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main {
+  background-color: #43484dd7;
+  border-radius: 3px;
+}
+.list {
+  letter-spacing: 0.04em;
+  list-style: none;
+  font-size: large;
+}

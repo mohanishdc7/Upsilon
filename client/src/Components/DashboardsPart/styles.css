@@ -1,0 +1,74 @@
+.denrh:hover{
+    cursor: pointer;
+}
+
+.denrh{
+    margin: 0 20px 20px 20px;
+}
+
+.cdsmain{
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 10px;
+    display: flex;
+    width: 700px;
+    background-color: white;
+}
+
+.cdsc1 h1{
+    font-size: 24px;
+    color: black;
+    font-weight: 800;
+}
+
+.cdsc1{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.cdsc1 span{
+    color: #805AD5;
+    font-weight: 800;
+}
+
+.cdsc2{
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    flex-direction: column ;
+    justify-content: space-evenly;
+}
+
+.cdsc2 div{
+    background-color: #805ad5;
+    padding: 5px;
+    color: white;
+}
+
+.cdsc2 button{
+    width: 100%;
+}
+
+.cdms{
+    margin-bottom: 20px;
+    display: none;
+    border: 2px solid red;
+}
+
+.cdsmain:hover{
+    cursor: pointer;
+}
+
+
+.cdsmain{
+    
+    margin-bottom: 20px;
+}
+
+.cdsmain img{
+    width: 300px;
+    height: 168.75px;
+    object-fit: cover;
+}

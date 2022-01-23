@@ -1,0 +1,38 @@
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(237,242,246);
+    margin-bottom: 10vh;
+}
+.item1,.item2,.item3{
+    text-align: center;
+    width : 20vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.coimg{
+    width: 20%;
+    height: 20%;
+    margin: 0 40% ;
+}
+
+.cop{
+    font-size: larger;
+}
+
+
+@media screen and (max-width : 750px) {
+    .main{
+        flex-direction: column;
+    }
+    .item1,.item2,.item3{
+        width: 80vw;
+        height:80vw;
+        margin: 0 10vw;
+    }
+    
+}

@@ -1,0 +1,90 @@
+.prom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.proi1{
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    margin-left: 10px
+}
+
+.ipbi{
+    margin-bottom: 20px;
+}
+
+.ipbi p{
+    margin-top: 10px;
+}
+
+.prst{
+    width: 300px;
+}
+
+.prst1 svg{
+    display: inline;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.prst1{
+    margin: 20px;
+}
+
+.ipm1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ipb1{
+    width: 390px;
+    margin: 0;
+}
+
+.impgr{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    justify-items: center;
+}
+
+.impi1{
+    font-size: 24px;
+    margin:30px
+}
+
+.impgr1{
+    margin : 30px 0;
+}
+
+.ipbi{
+    max-width: 400px;
+}
+
+.ipm{
+    max-width: 800px;
+    margin: auto;
+}
+
+.proi2{
+    font-size: 18px;
+}
+
+
+@media (max-width : 750px) {
+    .ipm1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ipb1{
+        margin-bottom: 30px;
+        max-width: 300px;
+    }
+
+    .impgr{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative','Roboto';
+}
+
+.dslnkm{
+    width: calc(100vw - 250px);
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.lnk{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lnkb{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lnkb button{
+    width:150px ;
+}
+.lnkc{
+    width:400px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #805AD5;
+}
+
+.lnklinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.lnkci,.lnki{
+    display: flex;
+    width: 50px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.lnkc svg:hover{
+    cursor: pointer;
+}
+
+.lnkcc{
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-evenly;
+    padding-left: 15px;
+}
+
+.lnkc img{
+    width: 40px;
+    height: 40px;
+}
+
+.loginmain{
+    display: flex;
+    padding: 0 30px ;
+    width: 350px;
+    background-color: white;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.loginbt{
+    width: 100%;
+    text-align: center;
+}
+
+.loginbt p{
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.loginbt a{
+    text-decoration: underline;
+}
+
+.loginbody{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edf2f6;
+}
+
+.loginmain button{
+    width: 100%;
+}
+
+.loginlogo{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.loginlogo span{
+    color:#805AD5;
+}
+
+.setbut{
+    width: 100%;
+}
+
+.setdash{
+
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #edf2f6;
+    flex-direction: column;
+}
+
+
+
+.prmf,.prme{
+    width: 100%;
+}
+
+.prm{
+    max-width: calc(100vw - 250px);
+    height: 100%;
+}
+
+.prme{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.prms{
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+
+}
+
+.setm{
+    display: flex;
+}
+
+.setdash button{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.setlogo{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 100px;
+}
+
+.setav{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.setlogo span{
+    color: #805AD5;
+}
+
+
+
+
+.pbm{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.pblnk{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pnlnki a{
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+.pbname{
+    margin-top : 20px;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 800px;
+    text-align: center;
+}
+
+.pbbio{
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.pnlnki{
+    margin-bottom: 20px; 
+    width: 100%;
+    display: flex;
+    font-weight: 800;
+    background-color: #805AD5;
+    padding: 10px;
+    color: white;
+}
+
+.pnlnki:hover{
+    background-color: white;
+    color: #805AD5;
+    border: 2px solid #805AD5;
+}
+
+
+.pnlnki img{
+    width: 24px;
+    height: 24px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+.pblogo{
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.pblogo span{
+    color: #805AD5;
+}
+
+.pnlnki button{
+    width: 100%;
+}
+
+
+
+.hmb{
+    /* background-image: linear-gradient(#00b4d8,#03045e); */
+    width: 100vw;
+    height: 100vh;
+    font-size: 36px;
+    color: black;
+    font-weight: 800;
+}
+
+.hmnav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hmnav button{
+    margin: 20px;
+    font-size: 24px;
+    color: white;
+    background-color: purple;
+    border-radius: 15px;
+    border-width: 0px;
+    padding: 10px 20px;
+}
+.hmc button{
+    margin: 20px;
+    font-size: 24px;
+    color: white;
+    background-color: purple;
+    border-radius: 15px;
+    border-width: 0px;
+    padding: 10px 20px;
+}
+
+.hmc p{
+    font-size: 18px;
+}
+
+.hmc a{
+    color: white;
+}
+
+
+.hmb span{
+    color: blueviolet;
+}
+
+.hmlogo{
+    margin: 20px;
+}
+
+
+.hmc{
+    /* color: white; */
+    margin-top: 15%;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hmc span{
+    font-size: 36px;
+}
+
+
+@media (max-width:750px)
+{
+    .pbm{
+        margin: 20px 10px;
+    }
+}

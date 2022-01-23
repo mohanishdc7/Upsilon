@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600;700&display=swap');
+* {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+}
+.avatar img {
+    width: 100%;
+    height: auto;
+}
+.content {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.suppoprt-me {
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 20vw;
+    max-width: 250px;
+    min-width: 200px;
+    z-index: 9;
+}
+.suppoprt-me img {
+    width: 100%;
+    height: auto;
+}

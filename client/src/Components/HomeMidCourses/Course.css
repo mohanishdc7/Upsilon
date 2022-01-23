@@ -1,0 +1,88 @@
+.ccard{
+    width : 340px;
+    height: 350px;
+    background-color: white;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 2%;
+}
+
+
+.hmdch:hover{
+    cursor: pointer;
+}
+.ccard img{
+    width: 340px;
+    height: 191.25px;object-fit: cover;
+}
+
+.cconth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+}
+
+
+.cconth1{
+    font-weight: 700;
+    padding-left: 10px;
+    width: 250px;
+}
+
+.cconth2{
+background-color: #805AD5;
+padding: 5px;
+color: white;
+height: fit-content;
+padding: 3px;
+}
+
+.cconta{
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.cconta span{
+    color:#805AD5;
+    font-weight: 800;
+}
+.cconta span:hover{
+   cursor: pointer;
+}
+
+.cconde{
+    font-size: 12px;
+    height: 50px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.ccontpr1{
+    display: flex;
+    padding-left: 10px;
+    width: 200px;
+}
+
+.ccontpr1 span{
+    font-size: 18px;
+    color: goldenrod;
+    margin-top: -3px;
+    margin-left: 6px;
+}
+
+.ccontpr2{
+    display: flex;
+    padding-left: 55px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #48BB78;
+}
+
+.ccontpr2 span{
+    margin-top: -6px;
+}
+
+
+.ccontpr{
+    display: flex;
+}

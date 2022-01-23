@@ -1,0 +1,61 @@
+.csb{
+    display: flex;
+    place-content: flex-end;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+
+.chatsi{
+    background-color: #805ad5;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.chatsend{
+    display: flex;
+}
+
+.chatdis{
+    height: 100%;
+}
+
+.chatsend div{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.chatsend div:hover{
+    cursor: pointer;
+}
+
+.chatsi:hover{
+    cursor: pointer;
+}
+
+.chatp{
+    background-color: white;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.chat{
+    display: flex;
+    height: 500px;
+}
+
+.chats{
+    width: 250px;
+    background-color: white;
+}
+
+.chatp{
+    max-width: 600px;
+}
