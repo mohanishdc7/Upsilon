@@ -1,4 +1,5 @@
 import styles from "./Footer.module.css";
+import Logo from "../Assets/Logo.svg";
 
 function Footer() {
   return (
@@ -9,7 +10,10 @@ function Footer() {
         }
       >
         <div className={styles.main_flex_1 + " mb-4 mb-md-0"}>
-          <h1 className={styles.header + " mb-3"}>Upsilon</h1>
+          <div className={styles.header}>
+            <img src={Logo} alt='logo' />
+            <p className='fw-bolder'>PSILON</p>
+          </div>
           <p className='fs-5 mb-4'>
             The instructors from around the world teach millions of students.
           </p>

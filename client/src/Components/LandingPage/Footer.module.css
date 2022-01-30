@@ -1,7 +1,10 @@
 .header {
-  font-size: 4rem;
-  line-height: 100%;
-  font-weight: 500;
+  display: flex;
+  font-size: 3.5rem;
+  justify-content: center;
+}
+.header img {
+  width: 50px;
 }
 .main_flex_1 {
   text-align: center;
@@ -11,7 +14,7 @@
 }
 @media screen and (min-width: 768px) {
   .header {
-    font-size: 5rem;
+    justify-content: left;
   }
   .main_flex_1 {
     text-align: left;

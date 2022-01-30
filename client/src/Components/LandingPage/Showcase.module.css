@@ -1,9 +1,8 @@
 .showcase {
   background-color: #212529; /* bootstrap-dark */
   color: #fbfbfb; /* bootstrap-light */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: block;
+  padding: 1px;
 }
 .main {
   background-color: #43484d54;
