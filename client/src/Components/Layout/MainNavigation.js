@@ -18,11 +18,11 @@ export default function MainNavigation(props) {
   return (
     <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
       <Container>
-        <Navbar.Brand href='/' className='fs-2 fw-bolder'>
+        <Navbar.Brand href='/' className='fs-2 fw-bolder ms-4 ms-md-0'>
           UPSILON
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-        <Navbar.Collapse id='responsive-navbar-nav'>
+        <Navbar.Toggle aria-controls='responsive-navbar-nav' className="me-4 me-md-0 border-0" />
+        <Navbar.Collapse id='responsive-navbar-nav' >
           <Nav className='me-auto d-none d-md-flex'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -47,7 +47,7 @@ export default function MainNavigation(props) {
               <NavDropdown.Item href='#action/3.3'>Category 3</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Nav className='fw-bold'>
+          <Nav className='fw-bold ms-4 ms-md-0'>
             <Nav.Link href='/' className='me-4 d-md-none'>
               Home
             </Nav.Link>

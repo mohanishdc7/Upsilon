@@ -4,8 +4,12 @@ import showcase from "../Assets/WhyChooseUs.svg";
 const WhyChooseUs = () => {
   return (
     <div className={styles.WhyChooseUs}>
-      <main className={styles.main + " d-block d-md-flex p-5 m-5"}>
-        <div className="d-flex align-items-center d-md-none">
+      <main
+        className={
+          styles.main + " d-block d-md-flex align-items-center p-5 m-5"
+        }
+      >
+        <div className='d-flex d-md-none'>
           <img src={showcase} />
         </div>
         <div className='pe-lg-5 me-lg-5'>
@@ -26,7 +30,7 @@ const WhyChooseUs = () => {
             <li>Offline: Become easy to find in your locality.</li>
           </ul>
         </div>
-        <div className="d-none d-md-flex align-items-center">
+        <div className='d-none d-md-flex'>
           <img src={showcase} />
         </div>
       </main>
