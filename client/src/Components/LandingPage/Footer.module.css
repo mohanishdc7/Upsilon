@@ -9,8 +9,8 @@
 .main_flex_1 {
   text-align: center;
 }
-.main_flex_1 form input {
-  width: 160%;
+.main_flex_2 {
+  justify-content: space-between;
 }
 @media screen and (min-width: 768px) {
   .header {
@@ -20,8 +20,12 @@
     text-align: left;
     width: 25%;
   }
+  .main_flex_1 form input {
+    width: 160%;
+  }
   .main_flex_2 {
     width: 30%;
+    justify-content: space-around;
   }
   .main_flex_3 {
     width: 25%;
@@ -33,32 +37,27 @@
   list-style: none;
   font-size: large;
 }
-.social a:nth-child(1) i {
-  background: #3b5998;
-  color: white;
-}
 .social {
-  margin-top: 10px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
 }
-.social i {
-  border-radius: 25px;
+.social img {
+  padding: 7px;
+  width: 80%;
 }
-.social a:nth-child(2) i {
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-  color: white;
+.social a:nth-child(1) img {
+  background: #2079ff;
 }
-.social a:nth-child(3) i {
-  background: #bb0000;
-  color: white;
+.social a:nth-child(2) img {
+  background: rgba(255, 0, 119, 0.993);
 }
-.social a:nth-child(4) i {
+.social a:nth-child(3) img {
+  background: #e60000;
+}
+.social a:nth-child(4) img {
   background: #007bb5;
-  color: white;
+}
+.Link:hover {
+  color: rgba(255, 255, 255, 0.829);
 }

@@ -20,13 +20,13 @@ export default function MainNavigation(props) {
   return (
     <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
       <Container>
-        <Navbar.Brand href='/' className={styles.logo + " ms-4 ms-md-0"}>
+        <Navbar.Brand href='/' className={styles.logo}>
           <img src={Logo} alt='logo' />
           <p className='fw-bolder'>PSILON</p>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls='responsive-navbar-nav'
-          className='me-4 me-md-0 border-0'
+          className='border-0'
         />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='me-auto d-none d-md-flex'>
