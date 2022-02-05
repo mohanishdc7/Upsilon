@@ -8,11 +8,11 @@ import showcase_Elearning from "../Assets/Landing Page/showcase_Elearning.png";
 
 const Showcase = () => {
   return (
-    <div className={styles.showcase}>
+    <section className={styles.showcase}>
       <main
         className={
           styles.main +
-          " d-block d-md-flex p-4 p-md-5 mx-4 mx-md-5 my-1 align-items-center"
+          " d-block d-md-flex p-4 p-lg-5 mx-4 mx-lg-5 my-1 align-items-center"
         }
       >
         <div className='d-block d-md-none'>
@@ -27,7 +27,7 @@ const Showcase = () => {
             a skill, help others learn and contribute back to the learning
             community. Create an income generator in your free time.
           </p>
-          <div className='d-md-flex'>
+          <div className='d-lg-flex'>
             <button className='btn-primary py-2 mb-2 mb-md-0 rounded me-md-5'>
               <Link to='/login' className={styles.Link + " py-3 px-4"}>
                 Get Started
@@ -56,7 +56,7 @@ const Showcase = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

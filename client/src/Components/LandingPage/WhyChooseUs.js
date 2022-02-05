@@ -3,10 +3,10 @@ import showcase from "../Assets/Landing Page/WhyChooseUs.svg";
 
 const WhyChooseUs = () => {
   return (
-    <div className={styles.WhyChooseUs}>
+    <section className={styles.WhyChooseUs}>
       <main
         className={
-          styles.main + " d-block d-md-flex align-items-center p-4 p-md-5 m-4 m-md-5"
+          styles.main + " d-block d-md-flex align-items-center p-4 p-lg-5 m-4 m-lg-5"
         }
       >
         <div className='d-flex d-md-none'>
@@ -14,7 +14,7 @@ const WhyChooseUs = () => {
         </div>
         <div className='pe-lg-5 me-lg-5'>
           <h1 className='fs-1 fw-bold mb-4 mt-5 mt-md-0'>Why Choose Us ?</h1>
-          <p className='fs-3 fs-md-3 fw-bold mb-2'>For Student</p>
+          <p className='fs-3 fw-bold mb-2'>For Student</p>
           <ul className={styles.list}>
             <li>Free: No platform charges for early clients.</li>
             <li>Versatility: Various courses to choose from.</li>
@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
           <img src={showcase} />
         </div>
       </main>
-    </div>
+    </section>
   );
 };
 

@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 import styles from "./Footer.module.css";
 import Logo from "../Assets/Logo.svg";
-import facebookIcon from "../Assets/Landing Page/facebook-icon.svg";
-import instagramIcon from "../Assets/Landing Page/insta-icon.svg";
-import youtubeIcon from "../Assets/Landing Page/youtube-icon.svg";
-import linkedInIcon from "../Assets/Landing Page/linkedIn-icon.svg";
+import facebookIcon from "../Assets/Footer/facebook-icon.svg";
+import instagramIcon from "../Assets/Footer/insta-icon.svg";
+import youtubeIcon from "../Assets/Footer/youtube-icon.svg";
+import linkedInIcon from "../Assets/Footer/linkedIn-icon.svg";
 
 function Footer() {
   return (

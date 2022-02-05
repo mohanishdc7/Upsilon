@@ -3,23 +3,22 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
 // Import Swiper styles
 import "swiper/swiper-bundle.min.css";
-import "swiper/swiper.min.css";
-import "swiper/modules/pagination/pagination.min.css";
 // import required modules
-import { FreeMode, Pagination } from "swiper";
+import { FreeMode, Navigation } from "swiper";
 
 import styles from "./MostPopularCourses.module.css";
 import CourseCard from "../UI/CourseCard";
 
 const MostPopularCourses = () => {
   return (
-    <div className={styles.body + " bg-dark py-4"}>
+    <section className={styles.body + " bg-dark pt-3 pb-5"}>
       <h1 className='fs-1 fw-bold mb-4 text-light'>Most Popular Courses</h1>
       <Swiper
         slidesPerView={1}
         spaceBetween={50}
         freeMode={true}
-        modules={[FreeMode]}
+        navigation={true}
+        modules={[FreeMode, Navigation]}
         breakpoints={{
           640: {
             slidesPerView: 2,
@@ -29,7 +28,7 @@ const MostPopularCourses = () => {
             spaceBetween: 100,
           },
         }}
-        className='mySwiper'
+        className={styles.swiper + " mySwiper"}
       >
         {/* <SwiperSlide className={styles.SwiperSlide}>
           <CourseCard />
@@ -62,7 +61,7 @@ const MostPopularCourses = () => {
           <CourseCard />
         </SwiperSlide>
       </Swiper>
-    </div>
+    </section>
   );
 };
 

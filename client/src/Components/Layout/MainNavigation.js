@@ -22,14 +22,14 @@ export default function MainNavigation(props) {
       <Container>
         <Navbar.Brand href='/' className={styles.logo}>
           <img src={Logo} alt='logo' />
-          <p className='fw-bolder'>PSILON</p>
+          <p className='d-none d-md-block fw-bolder'>PSILON</p>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls='responsive-navbar-nav'
-          className='border-0'
+          className='border-0 text-dark'
         />
         <Navbar.Collapse id='responsive-navbar-nav'>
-          <Nav className='me-auto d-none d-md-flex'>
+          <Nav className='me-auto d-none d-md-flex align-items-center'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='16'
@@ -41,10 +41,11 @@ export default function MainNavigation(props) {
               <path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z' />
             </svg>
             {/* Add categories to dropdown from available data */}
+            <i className="bi bi-search text-light fs-5 mt-1 mx-3"></i>
             <NavDropdown
               title='Search your niche'
               id='collasible-nav-dropdown'
-              className='ms-3 border-bottom'
+              className='border-bottom p-0'
             >
               <NavDropdown.Item href='#action/3.1'>Category 1</NavDropdown.Item>
               <NavDropdown.Divider />
@@ -53,7 +54,7 @@ export default function MainNavigation(props) {
               <NavDropdown.Item href='#action/3.3'>Category 3</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Nav className='fw-bold ms-4 ms-md-0'>
+          <Nav className='fw-bold ms-3 ms-md-0'>
             <Nav.Link href='/' className='me-4 d-md-none'>
               Home
             </Nav.Link>

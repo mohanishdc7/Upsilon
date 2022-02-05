@@ -1,5 +1,5 @@
 const Testinomials = () => {
-  return <div>Testinomials</div>;
+  return <section>Testinomials</section>;
 };
 
 export default Testinomials;
